@@ -1,0 +1,62 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .ball {
+    width: 28px;
+    height: 40px;
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    font-size: 11.3px;
+    width: -9%;
+    gap: 7px;
+    color: rgb(82, 156, 82);
+  }
+  .link {
+    display: none;
+  }
+
+  .logout {
+    width: 50%;
+    font-size: 9px;
+    border-radius: 10px;
+    display: none;
+  }
+}
+
+
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: #53c28b;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+
+
+.baller{
+ text-transform: uppercase;
+}

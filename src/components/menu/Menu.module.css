@@ -1,0 +1,57 @@
+.ball {
+  display: none;
+  position: relative;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .ball {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(to right, black, green) ;
+    font-weight: bolder;
+    height: calc(100vh - 0.7rem);
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace;
+    align-items: center;
+    color: white;
+    gap: 2rem;
+    align-items: center;
+    z-index: 10;
+    left: 0; 
+    top: 6rem;
+    width: 100%;
+  }
+}
+
+.logs {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logs {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+.logouut {
+padding: 15px;
+border: none;
+background-color: #53c28b;
+color: white;
+cursor: pointer;
+border-radius: 12px;
+font-size: 1.3rem;
+font-family: 'Courier New', Courier, monospace;
+
+}
